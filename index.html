@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Special Message For You</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #fdf2f8; /* Soft pink background */
+        }
+        .font-playfair {
+            font-family: 'Playfair Display', serif;
+        }
+        .heartbeat {
+            animation: heartbeat 1.5s ease-in-out infinite both;
+        }
+        @keyframes heartbeat {
+            from {
+                transform: scale(1);
+                transform-origin: center center;
+                animation-timing-function: ease-out;
+            }
+            10% {
+                transform: scale(0.91);
+                animation-timing-function: ease-in;
+            }
+            17% {
+                transform: scale(0.98);
+                animation-timing-function: ease-out;
+            }
+            33% {
+                transform: scale(0.87);
+                animation-timing-function: ease-in;
+            }
+            45% {
+                transform: scale(1);
+                animation-timing-function: ease-out;
+            }
+        }
+        .fade-in {
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .gallery-img {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .gallery-img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Header Section -->
+    <header class="text-center py-16 px-4 bg-white shadow-lg fade-in">
+        <!-- IMPORTANT: Replace 'My Dearest [Girlfriend's Name]' with her actual name -->
+        <h1 class="font-playfair text-5xl md:text-7xl text-rose-800">My Dearest Agriya Deepak Samson Narang</h1>
+        <p class="mt-4 text-lg text-gray-600">You mean the world to me</p>
+        <div class="text-rose-500 text-5xl mt-6 heartbeat">
+            &#x2764;
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-12">
+
+        <!-- Apology Section -->
+        <section class="my-16 text-center fade-in" style="animation-delay: 0.5s;">
+            <h2 class="font-playfair text-4xl text-rose-700 mb-4">I'm Genuinely Very Very Sorry</h2>
+            <!-- IMPORTANT: Customize this message to be from your heart. This is the most important part. -->
+            <p class="max-w-3xl mx-auto text-lg leading-relaxed">
+                Words can't fully express how sorry I am. I know I messed up, and there's no excuse for my actions. The last thing I ever want to do is hurt you. You mean the absolute world to me, and seeing you upset hurts me more than anything. I've been thinking about it non-stop, and I realize how foolish I was. Please, can you find it in your heart to forgive me?
+            </p>
+        </section>
+
+        <!-- Photo Gallery Section -->
+        <section class="my-20 fade-in" style="animation-delay: 1s;">
+            <h2 class="font-playfair text-4xl text-center text-rose-700 mb-10">Our Beautiful Moments</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                <!-- 
+                    IMPORTANT: Replace the 'src' for each image.
+                    Use your own photos. I've used placeholders from placehold.co.
+                    For example, if your photo is named 'our-trip.jpg', you'd change the src to "our-trip.jpg".
+                    Make sure the photo files are in the same folder as this index.php file.
+                -->
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <img src="WhatsApp Image 2025-07-22 at 20.44.35_f53bfa82.jpg" alt="A cherished memory" class="gallery-img rounded-md w-full h-auto">
+                    <!-- Optional: Add a caption for each photo -->
+                    <p class="text-center mt-3 text-gray-600">The day it all began.</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <img src="IMG_5855.jpg" alt="A cherished memory" class="gallery-img rounded-md w-full h-auto">
+                    <p class="text-center mt-3 text-gray-600">When we couldn't stop laughing.</p>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <img src="IMG_7275.jpg" alt="A cherished memory" class="gallery-img rounded-md w-full h-auto">
+                    <p class="text-center mt-3 text-gray-600">Adventures with you are my favorite.</p>
+                </div>
+                 <div class="bg-white p-4 rounded-lg shadow-md">
+                    <img src="IMG_6951.JPG" alt="A cherished memory" class="gallery-img rounded-md w-full h-auto">
+                    <p class="text-center mt-3 text-gray-600">Simple moments are the best with you.</p>
+                </div>
+                 <div class="bg-white p-4 rounded-lg shadow-md">
+                    <img src="IMG_5960.jpg" alt="A cherished memory" class="gallery-img rounded-md w-full h-auto">
+                    <p class="text-center mt-3 text-gray-600">A day I'll never forget.</p>
+                </div>
+                 <div class="bg-white p-4 rounded-lg shadow-md">
+                    <img src="IMG_5422.jpg" alt="A cherished memory" class="gallery-img rounded-md w-full h-auto">
+                    <p class="text-center mt-3 text-gray-600">Your smile lights up my life.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reasons I Love You Section -->
+        <section class="my-20 text-center fade-in" style="animation-delay: 1.5s;">
+            <h2 class="font-playfair text-4xl text-rose-700 mb-8">Why I Love You So Much</h2>
+            <!-- IMPORTANT: Customize these reasons to be personal to your girlfriend. -->
+            <div class="max-w-3xl mx-auto space-y-4">
+                <div class="bg-rose-100 p-4 rounded-lg shadow-sm">
+                    <p class="text-lg">...because of the way you laugh at my silly jokes.</p>
+                </div>
+                <div class="bg-rose-100 p-4 rounded-lg shadow-sm">
+                    <p class="text-lg">...because you always know how to make me feel better.</p>
+                </div>
+                <div class="bg-rose-100 p-4 rounded-lg shadow-sm">
+                    <p class="text-lg">...because you're the kindest and most caring person I've ever met.</p>
+                </div>
+                 <div class="bg-rose-100 p-4 rounded-lg shadow-sm">
+                    <p class="text-lg">...because life with you is an adventure I never want to end.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- My Promise Section -->
+        <section class="my-16 text-center fade-in" style="animation-delay: 2s;">
+            <h2 class="font-playfair text-4xl text-rose-700 mb-4">My Promise to You</h2>
+            <!-- IMPORTANT: Make this promise genuine and something you will stand by. -->
+            <p class="max-w-3xl mx-auto text-lg leading-relaxed">
+                I promise to always listen to you, especially when it's hard. I promise to be more patient and understanding. I promise to be the man you deserve and to cherish your heart every single day. I promise to work on myself and to never take your love for granted. You are my everything, and I'll spend the rest of my life proving it to you.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-10 bg-white mt-12">
+        <p class="text-2xl font-playfair text-rose-800">With All My Love,</p>
+        <!-- IMPORTANT: Put your name here -->
+        <p class="text-xl text-gray-600 mt-2">Rijul Narang Samson</p>
+    </footer>
+
+</body>
+</html>
